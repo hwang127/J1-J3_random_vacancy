@@ -4,11 +4,11 @@
 foreach nsamples (20000)
 foreach seed ( ` seq 1 10 ` )
 foreach nwait(0)
-foreach L (76 )# 76 95 114 133 )
-foreach xi (100 )  #these are actually the num
-foreach T (0.399 0.4 0.4005 0.401 0.402 0.403)#(0.4 0.401 0.402 0.4025 0.403 0.404 0.405)#(0.42 0.425 0.426 0.427 0.428 0.429 0.43)#(0.42 0.415 0.41 0.407 0.405 0.404 0.402 0.4 0.395 0.39)#0.385 0.38 0.375 0.37 0.365 0.36 0.355 0.35)
+foreach L (76 )
+foreach xi (100 )  
+foreach T (0.399 0.4 0.4005 0.401 0.402 0.403)
 foreach alpha(0)
-foreach beta(0)#9 36 100  will be taken sqrta
+foreach beta(0)
 foreach outNum (1)
 foreach J(-0.6165)
 foreach Jthird(3.0)
